@@ -1,0 +1,19 @@
+<% @medicos.each do |medico| %>
+<table>        
+<tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>CPF</th>
+        <th>Salary</th>
+</tr>
+<tr>
+    <td><%= medico.first_name  %></td>
+    <td><%= medico.last_name  %></td>
+    <td><%= medico.age  %></td>
+    <td><%= medico.cpf  %></td>
+    <td><%= medico.salary  %></td>
+</tr>
+</table>
+<% end %>
+</div>
