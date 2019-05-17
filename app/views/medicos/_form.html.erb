@@ -1,0 +1,23 @@
+<%= form_for @medico, remote:true do |f| %>
+    <div>
+        <%= f.label :first_name %> 
+        <%= f.text_field :first_name %> 
+    </div>
+    <div>
+        <%= f.label :last_name %> 
+        <%= f.text_field :last_name %> 
+    </div>
+    <div>   
+        <%= f.label :age %>
+        <%= f.date_select(:age, order:[:day, :month, :year]) %>
+    </div>
+    <div>
+        <%= f.label :cpf %>
+        <%= f.text_field :cpf%>
+    </div>
+    <div>    
+        <%= f.label :salary %>
+        <%= f.text_field :salary %>
+    </div>
+    <%= f.submit %>
+<% end %>  

@@ -1,0 +1,22 @@
+= ..hheellpp
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  FFTTPP
+------------------------------------------------------------------------------
+  help(arg = nil)
+
+------------------------------------------------------------------------------
+
+Issues the HELP command.
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  OOppttiioonnPPaarrsseerr
+------------------------------------------------------------------------------
+  help()
+
+------------------------------------------------------------------------------
+
+Returns option summary string.
+
+
